@@ -1,11 +1,13 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { Button } from 'react-native-elements';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
         <Text>Hello GitHub World!</Text>
+        <Button title='Awesome Button!' icon={{name: 'cached' }}/>
       </View>
     );
   }
